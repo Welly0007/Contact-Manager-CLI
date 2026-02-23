@@ -83,14 +83,6 @@ internal class Program
 			{
 				Console.WriteLine("Another instance is busy for too long. Timed out waiting for the contacts file lock.");
 			}
-			catch (IOException ex)
-			{
-				Console.WriteLine($"File error: {ex.Message}");
-			}
-			catch (UnauthorizedAccessException)
-			{
-				Console.WriteLine("Unable to access the contacts file (permission denied).");
-			}
 		}
 	}
 }

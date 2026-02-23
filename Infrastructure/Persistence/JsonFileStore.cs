@@ -15,8 +15,9 @@ namespace Infrastructure.Persistence
 		}
 
 		/// <summary>
-		/// Reads the file contents while also respecting the inter-process lock.
-		/// This means reads will wait/retry when another process holds an exclusive lock.
+		/// Reads the file contents without acquiring the exclusive lock.
+		/// Uses FileShare.Read so multiple readers can access simultaneously.
+		/// Retries if another process holds an exclusive write lock.
 		/// </summary>
 		public async Task<List<T>> ReadAsync()
 		{
@@ -25,15 +26,30 @@ namespace Infrastructure.Persistence
 				return new List<T>();
 			}
 
-			List<T>? result = null;
+			const int maxAttempts = 10;
+			var delay = TimeSpan.FromMilliseconds(100);
 
-			await _fileLock.ExecuteAsync(async stream =>
+			for (var attempt = 1; attempt <= maxAttempts; attempt++)
 			{
-				stream.Seek(0, SeekOrigin.Begin);
-				result = await JsonSerializer.DeserializeAsync<List<T>>(stream, _options) ?? new List<T>();
-			});
+				try
+				{
+					await using var stream = new FileStream(
+						_filePath,
+						FileMode.Open,
+						FileAccess.Read,
+						FileShare.Read);
 
-			return result ?? new List<T>();
+					return await JsonSerializer.DeserializeAsync<List<T>>(stream, _options) ?? new List<T>();
+				}
+				catch (IOException) when (attempt < maxAttempts)
+				{
+					// File is locked by a writer, wait and retry
+					await Task.Delay(delay);
+					delay = TimeSpan.FromMilliseconds(Math.Min(delay.TotalMilliseconds * 1.5, 1000));
+				}
+			}
+
+			throw new IOException("Timed out waiting to read the contacts file.");
 		}
 
 		public async Task WriteAsync(List<T> items)

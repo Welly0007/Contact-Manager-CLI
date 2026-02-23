@@ -1,0 +1,80 @@
+﻿using System.Text.Json;
+
+namespace Infrastructure.Persistence
+{
+	public class JsonFileStore<T>
+	{
+		private readonly IFileLock _fileLock;
+		private readonly string _filePath;
+		private readonly JsonSerializerOptions _options;
+		public JsonFileStore(IFileLock fileLock, string filePath, JsonSerializerOptions option)
+		{
+			_fileLock = fileLock;
+			_filePath = filePath;
+			_options = option;
+		}
+
+		/// <summary>
+		/// Reads the file contents while also respecting the inter-process lock.
+		/// This means reads will wait/retry when another process holds an exclusive lock.
+		/// </summary>
+		public async Task<List<T>> ReadAsync()
+		{
+			if (!File.Exists(_filePath) || new FileInfo(_filePath).Length == 0)
+			{
+				return new List<T>();
+			}
+
+			List<T>? result = null;
+
+			await _fileLock.ExecuteAsync(async stream =>
+			{
+				stream.Seek(0, SeekOrigin.Begin);
+				result = await JsonSerializer.DeserializeAsync<List<T>>(stream, _options) ?? new List<T>();
+			});
+
+			return result ?? new List<T>();
+		}
+
+		public async Task WriteAsync(List<T> items)
+		{
+			await _fileLock.ExecuteAsync(async stream =>
+			{
+				stream.SetLength(0);
+				stream.Seek(0, SeekOrigin.Begin);
+				await JsonSerializer.SerializeAsync(stream, items, _options);
+			});
+		}
+
+		/// <summary>
+		/// Performs a read-modify-write under the same exclusive file lock.
+		/// This prevents lock exceptions on read when another process holds the file,
+		/// and avoids lost updates when multiple processes add/update concurrently.
+		/// </summary>
+		public async Task UpdateAsync(Action<List<T>> update)
+		{
+			ArgumentNullException.ThrowIfNull(update);
+
+			await _fileLock.ExecuteAsync(async stream =>
+			{
+				List<T> items;
+
+				if (stream.Length == 0)
+				{
+					items = new List<T>();
+				}
+				else
+				{
+					stream.Seek(0, SeekOrigin.Begin);
+					items = await JsonSerializer.DeserializeAsync<List<T>>(stream, _options) ?? new List<T>();
+				}
+
+				update(items);
+
+				stream.SetLength(0);
+				stream.Seek(0, SeekOrigin.Begin);
+				await JsonSerializer.SerializeAsync(stream, items, _options);
+			});
+		}
+	}
+}
