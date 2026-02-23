@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mcnhQ2HkDW8=",
+  "dgSpecHash": "uFgMoKRylwQ=",
   "success": true,
-  "projectFilePath": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\acer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.3\\microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

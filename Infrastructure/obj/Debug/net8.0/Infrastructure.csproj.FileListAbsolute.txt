@@ -1,0 +1,16 @@
+D:\Tech\Contact-Manager-CLI\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+D:\Tech\Contact-Manager-CLI\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+D:\Tech\Contact-Manager-CLI\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+D:\Tech\Contact-Manager-CLI\Infrastructure\bin\Debug\net8.0\Domain.dll
+D:\Tech\Contact-Manager-CLI\Infrastructure\bin\Debug\net8.0\Domain.pdb
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+D:\Tech\Contact-Manager-CLI\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

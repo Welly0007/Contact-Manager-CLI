@@ -1,0 +1,49 @@
+﻿using System.Text.Json;
+using Application.Services;
+using Domain.Entities;
+using Infrastructure;
+using Infrastructure.Persistence;
+using Infrastructure.Persistence.Dtos;
+
+
+var option = new JsonSerializerOptions
+{
+	WriteIndented = true,
+	PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+};
+string filePath = Path.Combine(AppContext.BaseDirectory, "Contacts.json");
+var fileLock = new FileLock(filePath);
+var fileStore = new JsonFileStore<Contact>(fileLock, filePath, option);
+var repository = new JsonRepository(fileStore);
+var contactService = new ContactService(repository);
+while (true)
+{
+	Console.Write("1.Add");
+	Console.WriteLine("2.List");
+	string choice = Console.ReadLine();
+	if (choice == "2")
+	{
+		var contacts = await contactService.GetAllContacts();
+		foreach (var contact in contacts)
+		{
+			Console.WriteLine($"Name: {contact.Name}, Phone: {contact.Phone}, Email: {contact.Email}");
+		}
+	}
+	else if (choice == "1")
+	{
+		var rec = new ContactRecord();
+		Console.WriteLine("Give me name");
+		rec.Name = Console.ReadLine();
+		Console.WriteLine("Give me phone");
+		rec.Phone = Console.ReadLine();
+		Console.WriteLine("Give me email");
+		rec.Email = Console.ReadLine();
+		await contactService.AddContact(rec);
+
+	}
+	else
+	{
+		break;
+	}
+}
+

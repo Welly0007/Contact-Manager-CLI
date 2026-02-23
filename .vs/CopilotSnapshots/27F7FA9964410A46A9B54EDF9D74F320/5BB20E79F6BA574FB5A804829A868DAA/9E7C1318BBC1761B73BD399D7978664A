@@ -1,0 +1,80 @@
+﻿using System.Text.Json;
+using Application.Services;
+using Domain.Entities;
+using Infrastructure;
+using Infrastructure.Persistence;
+
+static async Task RunWithLoadingDotsAsync(string message, Func<Task> action, int intervalMs = 200)
+{
+	Console.Write(message);
+	using var cts = new CancellationTokenSource();
+
+	var indicatorTask = Task.Run(async () =>
+	{
+		while (!cts.IsCancellationRequested)
+		{
+			Console.Write('.');
+			try
+			{
+				await Task.Delay(intervalMs, cts.Token);
+			}
+			catch (TaskCanceledException)
+			{
+				break;
+			}
+		}
+	});
+
+	try
+	{
+		await action();
+	}
+	finally
+	{
+		cts.Cancel();
+		try { await indicatorTask; } catch (TaskCanceledException) { }
+		Console.WriteLine();
+	}
+}
+
+var option = new JsonSerializerOptions
+{
+	WriteIndented = true,
+	PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+};
+string filePath = Path.Combine(AppContext.BaseDirectory, "Contacts.json");
+var fileLock = new FileLock(filePath);
+var fileStore = new JsonFileStore<Contact>(fileLock, filePath, option);
+var repository = new JsonRepository(fileStore);
+var contactService = new ContactService(repository);
+while (true)
+{
+	Console.Write("1.Add");
+	Console.WriteLine("2.List");
+	string choice = Console.ReadLine();
+	if (choice == "2")
+	{
+		var contacts = await contactService.GetAllContacts();
+		foreach (var contact in contacts)
+		{
+			Console.WriteLine($"Name: {contact.Name}, Phone: {contact.Phone}, Email: {contact.Email}");
+		}
+	}
+	else if (choice == "1")
+	{
+		Console.WriteLine("Give me name");
+		var name = Console.ReadLine() ?? string.Empty;
+		Console.WriteLine("Give me phone");
+		var phone = Console.ReadLine() ?? string.Empty;
+		Console.WriteLine("Give me email");
+		var email = Console.ReadLine() ?? string.Empty;
+
+		await RunWithLoadingDotsAsync("Adding contact", () => contactService.AddContact(name, phone, email));
+		Console.WriteLine("Added.");
+	}
+	else
+	{
+		break;
+	}
+}
+

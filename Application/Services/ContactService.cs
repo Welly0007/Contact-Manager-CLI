@@ -1,20 +1,55 @@
-﻿using Domain.Entities;
+﻿using Application.Contracts;
+using Domain.Contracts;
+using Domain.Entities;
 
 namespace Application.Services
 {
-	public class ContactService
+	public class ContactService : IContactService
 	{
-		public ContactService() { }
-		public void AddContact(string name, string phone, string email)
+		public readonly IContactRepository _contactRepository;
+		public ContactService(IContactRepository contactRepository)
 		{
+			_contactRepository = contactRepository;
+		}
+
+		public async Task AddContactAsync(string name, string phone, string email)
+		{
+
 			var contact = new Contact
 			{
 				Id = Guid.NewGuid(),
 				Name = name,
 				Phone = phone,
-				Email = email
-			}
-			;
+				Email = email,
+				CreatedAt = DateTime.UtcNow
+			};
+			await _contactRepository.AddAsync(contact);
+		}
+
+		// Backwards-compatible convenience method used by the CLI.
+		public Task AddContact(string name, string phone, string email) => AddContactAsync(name, phone, email);
+
+		public async Task<IEnumerable<Contact>> GetAllContactsAsync()
+		{
+			return await _contactRepository.GetAllAsync();
+		}
+
+		// Backwards-compatible convenience method used by the CLI.
+		public Task<IEnumerable<Contact>> GetAllContacts() => GetAllContactsAsync();
+
+		public async Task<Contact?> GetContactByIdAsync(Guid id)
+		{
+			return await _contactRepository.GetByIdAsync(id);
+		}
+
+		public async Task UpdateContactAsync(Contact contact)
+		{
+			await _contactRepository.UpdateAsync(contact);
+		}
+
+		public async Task DeleteContactAsync(Guid id)
+		{
+			await _contactRepository.DeleteAsync(id);
 		}
 	}
 }

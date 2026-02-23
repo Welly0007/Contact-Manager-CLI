@@ -1,0 +1,11 @@
+﻿using Domain.Entities;
+using Infrastructure.Persistence.Dtos;
+
+namespace Application.Contracts
+{
+	public interface IContactService
+	{
+		public Task AddContact(ContactRecord rec);
+		public Task<IEnumerable<Contact>> GetAllContacts();
+	}
+}

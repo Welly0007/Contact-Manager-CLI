@@ -1,0 +1,31 @@
+﻿using Domain.Contracts;
+using Domain.Entities;
+
+namespace Application.Services
+{
+	public class ContactService
+	{
+		public readonly IContactRepository _contactRepository;
+		public ContactService(
+			IContactRepository contactRepository)
+		{
+			_contactRepository = contactRepository;
+		}
+		public async Task AddContact(string name, string phone, string email)
+		{
+			var contact = new Contact
+			{
+				Id = Guid.NewGuid(),
+				Name = name,
+				Phone = phone,
+				Email = email
+			}
+			;
+			await _contactRepository.AddAsync(contact);
+		}
+		public async Task<IEnumerable<Contact>> GetAllContacts()
+		{
+			return await _contactRepository.GetAllAsync();
+		}
+	}
+}

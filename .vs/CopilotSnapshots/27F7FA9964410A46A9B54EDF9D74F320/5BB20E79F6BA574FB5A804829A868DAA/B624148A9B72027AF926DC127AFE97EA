@@ -1,0 +1,34 @@
+﻿using Application.Contracts;
+using Domain.Contracts;
+using Domain.Entities;
+using Infrastructure.Persistence.Dtos;
+
+namespace Application.Services
+{
+	public class ContactService : IContactService
+	{
+		public readonly IContactRepository _contactRepository;
+		public ContactService(
+			IContactRepository contactRepository)
+		{
+			_contactRepository = contactRepository;
+		}
+		public async Task AddContact(ContactRecord rec)
+		{
+			var contact = new Contact
+			{
+				Id = Guid.NewGuid(),
+				Name = rec.Name,
+				Phone = rec.Phone,
+				Email = rec.Email,
+				CreatedAt = DateTime.UtcNow
+			}
+			;
+			await _contactRepository.AddAsync(contact);
+		}
+		public async Task<IEnumerable<Contact>> GetAllContacts()
+		{
+			return await _contactRepository.GetAllAsync();
+		}
+	}
+}

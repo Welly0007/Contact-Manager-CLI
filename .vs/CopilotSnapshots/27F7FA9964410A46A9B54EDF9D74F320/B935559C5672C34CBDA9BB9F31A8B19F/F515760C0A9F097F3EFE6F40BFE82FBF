@@ -1,0 +1,27 @@
+﻿using System.Runtime.CompilerServices;
+using System.Text.Json;
+using Domain.Contracts;
+using Infrastructure;
+using Infrastructure.Persistence;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace Contact_Manager_CLI
+{
+	public static class ServicesRegistration
+	{
+		public static IServiceCollection AddContactManagerServices(this IServiceCollection services) {
+			//Json Read Options
+			services.AddSingleton(new JsonSerializerOptions
+			{
+				WriteIndented = true,
+				PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+			});
+			//FilePath, could be loaded from config
+			services.AddSingleton(sp => Path.Combine(AppContext.BaseDirectory, "Contacts.json"));
+			services.AddSingleton<IFileLock, FileLock>();
+			services.AddSingleton(typeof(JsonFileStore<>));
+			services.AddSingleton<IContactRepository, JsonRepository>();
+			services.AddSingleton<IContactService, ContactService>();
+		}
+	}
+}

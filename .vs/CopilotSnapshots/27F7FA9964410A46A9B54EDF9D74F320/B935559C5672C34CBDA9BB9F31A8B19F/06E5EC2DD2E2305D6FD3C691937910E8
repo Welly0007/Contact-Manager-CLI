@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Application.Contracts
+{
+	public interface IContactService
+	{
+		Task<IEnumerable<ContactView>> GetAllContactsAsync();
+		Task<ContactDto> GetContactByIdAsync(Guid id);
+		Task AddContactAsync(ContactDto contact);
+		Task UpdateContactAsync(ContactDto contact);
+		Task DeleteContactAsync(Guid id);
+	}
+}

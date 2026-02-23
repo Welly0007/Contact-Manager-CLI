@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj": {}
+    "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj": {}
   },
   "projects": {
-    "D:\\Me\\Contact-Manager-CLI\\Application\\Application.csproj": {
+    "D:\\Tech\\Contact-Manager-CLI\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Me\\Contact-Manager-CLI\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Tech\\Contact-Manager-CLI\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Me\\Contact-Manager-CLI\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Me\\Contact-Manager-CLI\\Application\\obj\\",
+        "projectPath": "D:\\Tech\\Contact-Manager-CLI\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\Tech\\Contact-Manager-CLI\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Me\\Contact-Manager-CLI\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Me\\Contact-Manager-CLI\\Domain\\Domain.csproj"
+              "D:\\Tech\\Contact-Manager-CLI\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Tech\\Contact-Manager-CLI\\Domain\\Domain.csproj"
+              },
+              "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -69,24 +72,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj": {
+    "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
+        "projectUniqueName": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
         "projectName": "Contact-Manager-CLI",
-        "projectPath": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\obj\\",
+        "projectPath": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,8 +104,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Me\\Contact-Manager-CLI\\Application\\Application.csproj": {
-                "projectPath": "D:\\Me\\Contact-Manager-CLI\\Application\\Application.csproj"
+              "D:\\Tech\\Contact-Manager-CLI\\Application\\Application.csproj": {
+                "projectPath": "D:\\Tech\\Contact-Manager-CLI\\Application\\Application.csproj"
+              },
+              "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -122,6 +128,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -138,24 +154,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Me\\Contact-Manager-CLI\\Domain\\Domain.csproj": {
+    "D:\\Tech\\Contact-Manager-CLI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Me\\Contact-Manager-CLI\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Tech\\Contact-Manager-CLI\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Me\\Contact-Manager-CLI\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "D:\\Me\\Contact-Manager-CLI\\Domain\\obj\\",
+        "projectPath": "D:\\Tech\\Contact-Manager-CLI\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\Tech\\Contact-Manager-CLI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -203,7 +219,76 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+        "outputPath": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Tech\\Contact-Manager-CLI\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Tech\\Contact-Manager-CLI\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
