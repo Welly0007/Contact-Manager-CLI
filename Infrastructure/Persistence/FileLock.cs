@@ -26,8 +26,6 @@
 						FileAccess.ReadWrite,
 						FileShare.None);
 
-					// Optional: keep this ONLY if you want to simulate a long hold of the lock.
-					await Task.Delay(TimeSpan.FromSeconds(5));
 
 					await action(stream);
 					return;

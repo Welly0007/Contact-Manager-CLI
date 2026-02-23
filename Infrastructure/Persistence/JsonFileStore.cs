@@ -27,7 +27,7 @@ namespace Infrastructure.Persistence
 			}
 
 			const int maxAttempts = 10;
-			var delay = TimeSpan.FromMilliseconds(100);
+			var delay = TimeSpan.FromSeconds(100);
 
 			for (var attempt = 1; attempt <= maxAttempts; attempt++)
 			{
@@ -38,6 +38,7 @@ namespace Infrastructure.Persistence
 						FileMode.Open,
 						FileAccess.Read,
 						FileShare.Read);
+
 
 					return await JsonSerializer.DeserializeAsync<List<T>>(stream, _options) ?? new List<T>();
 				}
@@ -61,12 +62,6 @@ namespace Infrastructure.Persistence
 				await JsonSerializer.SerializeAsync(stream, items, _options);
 			});
 		}
-
-		/// <summary>
-		/// Performs a read-modify-write under the same exclusive file lock.
-		/// This prevents lock exceptions on read when another process holds the file,
-		/// and avoids lost updates when multiple processes add/update concurrently.
-		/// </summary>
 		public async Task UpdateAsync(Action<List<T>> update)
 		{
 			ArgumentNullException.ThrowIfNull(update);

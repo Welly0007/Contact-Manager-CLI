@@ -1,0 +1,88 @@
+﻿using Application.Contracts;
+using Contact_Manager_CLI;
+using Microsoft.Extensions.DependencyInjection;
+
+internal class Program
+{
+	private static async Task Main(string[] args)
+	{
+		static async Task RunWithLoadingDotsAsync(string message, Func<Task> action, int intervalMs = 200)
+		{
+			Console.Write(message);
+			using var cts = new CancellationTokenSource();
+
+			var indicatorTask = Task.Run(async () =>
+			{
+				while (!cts.IsCancellationRequested)
+				{
+					Console.Write('.');
+					try
+					{
+						await Task.Delay(intervalMs, cts.Token);
+					}
+					catch (TaskCanceledException)
+					{
+						break;
+					}
+				}
+			});
+
+			try
+			{
+				await action();
+			}
+			finally
+			{
+				cts.Cancel();
+				try { await indicatorTask; } catch (TaskCanceledException) { }
+				Console.WriteLine();
+			}
+		}
+
+		var services = new ServiceCollection();
+		services.AddContactManagerServices();
+
+		using var serviceProvider = services.BuildServiceProvider();
+
+		var contactService = serviceProvider.GetRequiredService<IContactService>();
+
+		while (true)
+		{
+			Console.Write("1.Add");
+			Console.WriteLine("2.List");
+			string choice = Console.ReadLine();
+
+			try
+			{
+				if (choice == "2")
+				{
+					var contacts = await contactService.GetAllContactsAsync();
+					foreach (var contact in contacts)
+					{
+						Console.WriteLine($"Name: {contact.Name}, Phone: {contact.Phone}, Email: {contact.Email}");
+					}
+				}
+				else if (choice == "1")
+				{
+					Console.WriteLine("Give me name");
+					var name = Console.ReadLine() ?? string.Empty;
+					Console.WriteLine("Give me phone");
+					var phone = Console.ReadLine() ?? string.Empty;
+					Console.WriteLine("Give me email");
+					var email = Console.ReadLine() ?? string.Empty;
+
+					await RunWithLoadingDotsAsync("Adding contact", () => contactService.AddContactAsync(name, phone, email));
+					Console.WriteLine("Added.");
+				}
+				else
+				{
+					break;
+				}
+			}
+			catch (IOException ex) when (ex.Message.Contains("Timed out waiting to acquire the contacts file lock.", StringComparison.Ordinal))
+			{
+				Console.WriteLine("Another instance is busy for too long. Timed out waiting for the contacts file lock.");
+			}
+		}
+	}
+}
