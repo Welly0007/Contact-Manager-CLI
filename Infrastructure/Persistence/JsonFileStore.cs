@@ -26,7 +26,7 @@ namespace Infrastructure.Persistence
 				return new List<T>();
 			}
 
-			const int maxAttempts = 10;
+			const int maxAttempts = 200;
 			var delay = TimeSpan.FromSeconds(100);
 
 			for (var attempt = 1; attempt <= maxAttempts; attempt++)
@@ -44,7 +44,6 @@ namespace Infrastructure.Persistence
 				}
 				catch (IOException) when (attempt < maxAttempts)
 				{
-					// File is locked by a writer, wait and retry
 					await Task.Delay(delay);
 					delay = TimeSpan.FromMilliseconds(Math.Min(delay.TotalMilliseconds * 1.5, 1000));
 				}

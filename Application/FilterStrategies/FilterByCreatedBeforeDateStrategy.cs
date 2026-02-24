@@ -1,0 +1,19 @@
+using Domain.Entities;
+
+namespace Application.FilterStrategies
+{
+	public class FilterByCreatedBeforeDateStrategy : IContactFilterStrategy
+	{
+		public IEnumerable<Contact> Filter(IEnumerable<Contact> contacts, string filterTerm)
+		{
+			if (!UtcParserHelper.TryParseUtcDate(filterTerm, out var date))
+			{
+				return Enumerable.Empty<Contact>();
+			}
+
+			return contacts.Where(c => c.CreatedAt < date).ToList();
+		}
+
+		public string GetStrategyName() => "Created Before (UTC date)";
+	}
+}

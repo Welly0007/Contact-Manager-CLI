@@ -1,0 +1,22 @@
+﻿using Application.FilterStrategies;
+using Application.SearchStrategies;
+using Domain.Entities;
+
+namespace Application.Contracts
+{
+	public interface IContactService
+	{
+		Task<IEnumerable<Contact>> GetAllContactsAsync();
+		Task<Contact?> GetContactByIdAsync(Guid id);
+		Task AddContactAsync(string name, string phone, string email);
+		Task UpdateContactAsync(Contact contact);
+		Task DeleteContactAsync(Guid id);
+		Task<IEnumerable<Contact>> SearchContactsAsync(string searchTerm, IContactSearchStrategy strategy);
+
+		Task<IEnumerable<Contact>> FilterContactsByEmailDomainAsync(string domain);
+
+		Task<IEnumerable<Contact>> FilterContactsAsync(string filterTerm, IContactFilterStrategy strategy);
+
+		Task SaveAsync();
+	}
+}

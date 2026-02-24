@@ -13,7 +13,7 @@
 		{
 			Directory.CreateDirectory(Path.GetDirectoryName(_filePath)!);
 
-			const int maxAttempts = 10;
+			const int maxAttempts = 200;
 			var delay = TimeSpan.FromSeconds(1);
 
 			for (var attempt = 1; attempt <= maxAttempts; attempt++)
