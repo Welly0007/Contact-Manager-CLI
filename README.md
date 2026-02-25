@@ -1,4 +1,3 @@
-````md
 # Contact Manager CLI (C# / .NET 8)
 
 A small, practical command-line application for managing contacts (name, phone, email).  
