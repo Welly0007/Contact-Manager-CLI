@@ -1,109 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Tech\\Contact-Manager-CLI\\",
+  "WorkspaceRootPath": "D:\\Me\\Contact-Manager-CLI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|d:\\tech\\contact-manager-cli\\infrastructure\\jsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|d:\\me\\contact-manager-cli\\infrastructure\\jsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\jsonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|d:\\tech\\contact-manager-cli\\infrastructure\\persistence\\filelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|d:\\me\\contact-manager-cli\\infrastructure\\persistence\\filelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\filelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|d:\\tech\\contact-manager-cli\\infrastructure\\persistence\\jsonfilestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|d:\\me\\contact-manager-cli\\infrastructure\\persistence\\jsonfilestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\jsonfilestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|d:\\tech\\contact-manager-cli\\infrastructure\\persistence\\ifilelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|d:\\me\\contact-manager-cli\\infrastructure\\persistence\\ifilelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\ifilelock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|d:\\tech\\contact-manager-cli\\contact-manager-cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|d:\\me\\contact-manager-cli\\contact-manager-cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|solutionrelative:contact-manager-cli\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|d:\\tech\\contact-manager-cli\\contact-manager-cli\\climenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|d:\\me\\contact-manager-cli\\contact-manager-cli\\climenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|solutionrelative:contact-manager-cli\\climenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|d:\\tech\\contact-manager-cli\\contact-manager-cli\\cliapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|d:\\me\\contact-manager-cli\\contact-manager-cli\\cliapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|solutionrelative:contact-manager-cli\\cliapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\contracts\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\contracts\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\contracts\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C947EAAB-4C23-41E3-A356-BD1F85536FBE}|Domain\\Domain.csproj|d:\\tech\\contact-manager-cli\\domain\\contracts\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C947EAAB-4C23-41E3-A356-BD1F85536FBE}|Domain\\Domain.csproj|d:\\me\\contact-manager-cli\\domain\\contracts\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C947EAAB-4C23-41E3-A356-BD1F85536FBE}|Domain\\Domain.csproj|solutionrelative:domain\\contracts\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C947EAAB-4C23-41E3-A356-BD1F85536FBE}|Domain\\Domain.csproj|d:\\tech\\contact-manager-cli\\domain\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C947EAAB-4C23-41E3-A356-BD1F85536FBE}|Domain\\Domain.csproj|d:\\me\\contact-manager-cli\\domain\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C947EAAB-4C23-41E3-A356-BD1F85536FBE}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|d:\\tech\\contact-manager-cli\\infrastructure\\persistence\\dtos\\contactrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|d:\\me\\contact-manager-cli\\infrastructure\\persistence\\dtos\\contactrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2728ECC-C47C-4D09-9673-C15EF3A179F1}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\dtos\\contactrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\filterstrategies\\filterbycreatedafterdatestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\filterstrategies\\filterbycreatedafterdatestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\filterstrategies\\filterbycreatedafterdatestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\filterstrategies\\filterbycreatedbeforedatestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\filterstrategies\\filterbycreatedbeforedatestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\filterstrategies\\filterbycreatedbeforedatestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\filterstrategies\\utcparserhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\filterstrategies\\utcparserhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\filterstrategies\\utcparserhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\filterstrategies\\filterbyemaildomainstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\filterstrategies\\filterbyemaildomainstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\filterstrategies\\filterbyemaildomainstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\searchstrategies\\searchbyemailstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\searchstrategies\\searchbyemailstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\searchstrategies\\searchbyemailstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\searchstrategies\\searchbyphonestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\searchstrategies\\searchbyphonestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\searchstrategies\\searchbyphonestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\searchstrategies\\searchbynamestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\searchstrategies\\searchbynamestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\searchstrategies\\searchbynamestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\searchstrategies\\searchbyallfieldsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\searchstrategies\\searchbyallfieldsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\searchstrategies\\searchbyallfieldsstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\searchstrategies\\icontactsearchstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\searchstrategies\\icontactsearchstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\searchstrategies\\icontactsearchstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|d:\\tech\\contact-manager-cli\\contact-manager-cli\\servicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|d:\\me\\contact-manager-cli\\contact-manager-cli\\servicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|solutionrelative:contact-manager-cli\\servicesregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|d:\\tech\\contact-manager-cli\\contact-manager-cli\\contact-manager-cli.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|d:\\me\\contact-manager-cli\\contact-manager-cli\\contact-manager-cli.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{EF361645-F13A-4CF5-9128-E76912FD69DB}|Contact-Manager-CLI\\Contact-Manager-CLI.csproj|solutionrelative:contact-manager-cli\\contact-manager-cli.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Tech\\Contact-Manager-CLI\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Me\\Contact-Manager-CLI\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\tech\\contact-manager-cli\\application\\filterstrategies\\icontactfilterstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|d:\\me\\contact-manager-cli\\application\\filterstrategies\\icontactfilterstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{159A5852-5109-40F1-B893-45FB70C7FD77}|Application\\Application.csproj|solutionrelative:application\\filterstrategies\\icontactfilterstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -120,165 +120,153 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CliMenu.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\CliMenu.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\CliMenu.cs",
               "RelativeDocumentMoniker": "Contact-Manager-CLI\\CliMenu.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\CliMenu.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\CliMenu.cs",
               "RelativeToolTip": "Contact-Manager-CLI\\CliMenu.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAA2wAoAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T21:28:30.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T21:28:30.865Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "CliApp.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\CliApp.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\CliApp.cs",
               "RelativeDocumentMoniker": "Contact-Manager-CLI\\CliApp.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\CliApp.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\CliApp.cs",
               "RelativeToolTip": "Contact-Manager-CLI\\CliApp.cs",
               "ViewState": "AgIAAG0BAAAAAAAAAAAgwIQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T21:28:22.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T21:28:22.811Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "UtcParserHelper.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\FilterStrategies\\UtcParserHelper.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\FilterStrategies\\UtcParserHelper.cs",
               "RelativeDocumentMoniker": "Application\\FilterStrategies\\UtcParserHelper.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\FilterStrategies\\UtcParserHelper.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\FilterStrategies\\UtcParserHelper.cs",
               "RelativeToolTip": "Application\\FilterStrategies\\UtcParserHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T21:19:33.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T21:19:33.384Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "IContactFilterStrategy.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\FilterStrategies\\IContactFilterStrategy.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\FilterStrategies\\IContactFilterStrategy.cs",
               "RelativeDocumentMoniker": "Application\\FilterStrategies\\IContactFilterStrategy.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\FilterStrategies\\IContactFilterStrategy.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\FilterStrategies\\IContactFilterStrategy.cs",
               "RelativeToolTip": "Application\\FilterStrategies\\IContactFilterStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T21:12:20.114Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T21:12:20.114Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "FilterByCreatedBeforeDateStrategy.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByCreatedBeforeDateStrategy.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByCreatedBeforeDateStrategy.cs",
               "RelativeDocumentMoniker": "Application\\FilterStrategies\\FilterByCreatedBeforeDateStrategy.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByCreatedBeforeDateStrategy.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByCreatedBeforeDateStrategy.cs",
               "RelativeToolTip": "Application\\FilterStrategies\\FilterByCreatedBeforeDateStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T21:12:20.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T21:12:20.002Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "FilterByCreatedAfterDateStrategy.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByCreatedAfterDateStrategy.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByCreatedAfterDateStrategy.cs",
               "RelativeDocumentMoniker": "Application\\FilterStrategies\\FilterByCreatedAfterDateStrategy.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByCreatedAfterDateStrategy.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByCreatedAfterDateStrategy.cs",
               "RelativeToolTip": "Application\\FilterStrategies\\FilterByCreatedAfterDateStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T21:12:19.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T21:12:19.99Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "FilterByEmailDomainStrategy.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByEmailDomainStrategy.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByEmailDomainStrategy.cs",
               "RelativeDocumentMoniker": "Application\\FilterStrategies\\FilterByEmailDomainStrategy.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByEmailDomainStrategy.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\FilterStrategies\\FilterByEmailDomainStrategy.cs",
               "RelativeToolTip": "Application\\FilterStrategies\\FilterByEmailDomainStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T21:12:19.975Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-24T21:12:19.975Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "SearchByAllFieldsStrategy.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByAllFieldsStrategy.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByAllFieldsStrategy.cs",
               "RelativeDocumentMoniker": "Application\\SearchStrategies\\SearchByAllFieldsStrategy.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByAllFieldsStrategy.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByAllFieldsStrategy.cs",
               "RelativeToolTip": "Application\\SearchStrategies\\SearchByAllFieldsStrategy.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T14:57:33.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T14:57:33.264Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "SearchByEmailStrategy.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByEmailStrategy.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByEmailStrategy.cs",
               "RelativeDocumentMoniker": "Application\\SearchStrategies\\SearchByEmailStrategy.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByEmailStrategy.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByEmailStrategy.cs",
               "RelativeToolTip": "Application\\SearchStrategies\\SearchByEmailStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T14:57:27.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T14:57:27.967Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "SearchByPhoneStrategy.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByPhoneStrategy.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByPhoneStrategy.cs",
               "RelativeDocumentMoniker": "Application\\SearchStrategies\\SearchByPhoneStrategy.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByPhoneStrategy.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByPhoneStrategy.cs",
               "RelativeToolTip": "Application\\SearchStrategies\\SearchByPhoneStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T14:57:23.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T14:57:23.731Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "SearchByNameStrategy.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByNameStrategy.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByNameStrategy.cs",
               "RelativeDocumentMoniker": "Application\\SearchStrategies\\SearchByNameStrategy.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByNameStrategy.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\SearchStrategies\\SearchByNameStrategy.cs",
               "RelativeToolTip": "Application\\SearchStrategies\\SearchByNameStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T14:57:16.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T14:57:16.194Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "IContactSearchStrategy.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\SearchStrategies\\IContactSearchStrategy.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\SearchStrategies\\IContactSearchStrategy.cs",
               "RelativeDocumentMoniker": "Application\\SearchStrategies\\IContactSearchStrategy.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\SearchStrategies\\IContactSearchStrategy.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\SearchStrategies\\IContactSearchStrategy.cs",
               "RelativeToolTip": "Application\\SearchStrategies\\IContactSearchStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T14:57:10.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T14:57:10.427Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "README.md",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\README.md",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\README.md",
               "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\README.md",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\README.md",
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAFwBAAAAAAAAAIBJwF4BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
@@ -288,35 +276,33 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "ContactRecord.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Persistence\\Dtos\\ContactRecord.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Infrastructure\\Persistence\\Dtos\\ContactRecord.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Dtos\\ContactRecord.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Persistence\\Dtos\\ContactRecord.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Infrastructure\\Persistence\\Dtos\\ContactRecord.cs",
               "RelativeToolTip": "Infrastructure\\Persistence\\Dtos\\ContactRecord.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T00:52:27.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T00:52:27.434Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "IContactService.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\Contracts\\IContactService.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\Contracts\\IContactService.cs",
               "RelativeDocumentMoniker": "Application\\Contracts\\IContactService.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\Contracts\\IContactService.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\Contracts\\IContactService.cs",
               "RelativeToolTip": "Application\\Contracts\\IContactService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T00:46:36.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T00:46:36.195Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "Application.csproj",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\Application.csproj",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\Application.csproj",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\Application.csproj",
               "RelativeToolTip": "Application\\Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -326,9 +312,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "Contact-Manager-CLI.csproj",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
               "RelativeDocumentMoniker": "Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
               "RelativeToolTip": "Contact-Manager-CLI\\Contact-Manager-CLI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -338,9 +324,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "ServicesRegistration.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\ServicesRegistration.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\ServicesRegistration.cs",
               "RelativeDocumentMoniker": "Contact-Manager-CLI\\ServicesRegistration.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\ServicesRegistration.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\ServicesRegistration.cs",
               "RelativeToolTip": "Contact-Manager-CLI\\ServicesRegistration.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAcwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -350,50 +336,47 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "JsonFileStore.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Persistence\\JsonFileStore.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Infrastructure\\Persistence\\JsonFileStore.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistence\\JsonFileStore.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Persistence\\JsonFileStore.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Infrastructure\\Persistence\\JsonFileStore.cs",
               "RelativeToolTip": "Infrastructure\\Persistence\\JsonFileStore.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAwwBwAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T23:46:49.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T23:46:49.345Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FileLock.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Persistence\\FileLock.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Infrastructure\\Persistence\\FileLock.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistence\\FileLock.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Persistence\\FileLock.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Infrastructure\\Persistence\\FileLock.cs",
               "RelativeToolTip": "Infrastructure\\Persistence\\FileLock.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T23:34:56.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T23:34:56.962Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "IFileLock.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Persistence\\IFileLock.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Infrastructure\\Persistence\\IFileLock.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Persistence\\IFileLock.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\Persistence\\IFileLock.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Infrastructure\\Persistence\\IFileLock.cs",
               "RelativeToolTip": "Infrastructure\\Persistence\\IFileLock.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T23:34:08.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T23:34:08.666Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "JsonRepository.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\JsonRepository.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Infrastructure\\JsonRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\JsonRepository.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Infrastructure\\JsonRepository.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Infrastructure\\JsonRepository.cs",
               "RelativeToolTip": "Infrastructure\\JsonRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-22T19:46:43.209Z",
               "EditorCaption": ""
@@ -402,53 +385,49 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "ContactService.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Application\\Services\\ContactService.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Application\\Services\\ContactService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ContactService.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Application\\Services\\ContactService.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Application\\Services\\ContactService.cs",
               "RelativeToolTip": "Application\\Services\\ContactService.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAABRwFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T08:50:44.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T08:50:44.719Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "IContactRepository.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Domain\\Contracts\\IContactRepository.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Domain\\Contracts\\IContactRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Contracts\\IContactRepository.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Domain\\Contracts\\IContactRepository.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Domain\\Contracts\\IContactRepository.cs",
               "RelativeToolTip": "Domain\\Contracts\\IContactRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T08:34:00.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T08:34:00.62Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Contact.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Domain\\Entities\\Contact.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Domain\\Entities\\Contact.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Contact.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Domain\\Entities\\Contact.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Domain\\Entities\\Contact.cs",
               "RelativeToolTip": "Domain\\Entities\\Contact.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T08:29:31.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T08:29:31.521Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\Program.cs",
+              "DocumentMoniker": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\Program.cs",
               "RelativeDocumentMoniker": "Contact-Manager-CLI\\Program.cs",
-              "ToolTip": "D:\\Tech\\Contact-Manager-CLI\\Contact-Manager-CLI\\Program.cs",
+              "ToolTip": "D:\\Me\\Contact-Manager-CLI\\Contact-Manager-CLI\\Program.cs",
               "RelativeToolTip": "Contact-Manager-CLI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-22T08:23:53.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-22T08:23:53.919Z"
             }
           ]
         }
